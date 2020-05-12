@@ -32,7 +32,7 @@ public class HttpStatusCodeErrors {
             return 100 <= statusCode && statusCode <= 599;
         }
     };
-    private static final List<String> DEFAULT_ERROR_CODES = Arrays.asList("5xx");
+    private static final List<String> DEFAULT_ERROR_CODES = Arrays.asList("5xx, 4xx, 3xx");
 
     private final StatusCode[] errors;
 
